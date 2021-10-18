@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  SponsorBlock for YouTube
+//  SponsorBlock for YouTube - Skip Sponsorships
 //
-//  Created by user927005 on 6/22/21.
+//  Created by user927005 on 9/5/21.
 //
 
 import Cocoa

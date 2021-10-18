@@ -1,8 +1,8 @@
 //
 //  SafariWebExtensionHandler.swift
-//  SponsorBlock for YouTube Extension
+//  SponsorBlock for YouTube - Skip Sponsorships Extension
 //
-//  Created by user927005 on 6/22/21.
+//  Created by user927005 on 9/5/21.
 //
 
 import SafariServices
