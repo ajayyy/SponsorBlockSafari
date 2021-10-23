@@ -1,0 +1,68 @@
+* {
+    cursor: default;
+}
+
+:root {
+    color-scheme: dark;
+
+    --spacing: 10px;
+}
+
+html {
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    gap: var(--spacing);
+    margin: 0 calc(var(--spacing) * 2);
+
+    font: -apple-system-short-body;
+    text-align: center;
+    background-color: #333333;
+    color: #c4c4c4;
+}
+
+body img {
+    padding-top: 10px;
+}
+
+a {
+  text-decoration: underline;
+  color: inherit;
+}
+
+body:not(.platform-mac, .platform-ios) :is(.platform-mac, .platform-ios) {
+    display: none;
+}
+
+body.platform-ios .platform-mac {
+    display: none;
+}
+
+body.platform-mac .platform-ios {
+    display: none;
+}
+
+body.platform-ios .platform-mac {
+    display: none;
+}
+
+body:not(.state-on, .state-off) :is(.state-on, .state-off) {
+    display: none;
+}
+
+body.state-on :is(.state-off, .state-unknown) {
+    display: none;
+}
+
+body.state-off :is(.state-on, .state-unknown) {
+    display: none;
+}
+
+button {
+    font-size: 1em;
+}

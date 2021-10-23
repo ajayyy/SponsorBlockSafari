@@ -1,0 +1,1009 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D94D4E327211CD5005746CF /* ios_instructions.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D94D4E227211CD5005746CF /* ios_instructions.png */; };
+		2D94D4E427211CD5005746CF /* ios_instructions.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D94D4E227211CD5005746CF /* ios_instructions.png */; };
+		2DBA5CB127210D8400BD0CFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA5CB027210D8400BD0CFF /* AppDelegate.swift */; };
+		2DBA5CB327210D8400BD0CFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA5CB227210D8400BD0CFF /* SceneDelegate.swift */; };
+		2DBA5CB627210D8400BD0CFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5CB427210D8400BD0CFF /* LaunchScreen.storyboard */; };
+		2DBA5CB927210D8400BD0CFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5CB727210D8400BD0CFF /* Main.storyboard */; };
+		2DBA5CC227210D8500BD0CFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA5CC127210D8500BD0CFF /* AppDelegate.swift */; };
+		2DBA5CC527210D8500BD0CFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5CC327210D8500BD0CFF /* Main.storyboard */; };
+		2DBA5CCD27210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2DBA5CCC27210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2DBA5CD727210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2DBA5CD627210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2DBA5CDD27210D8500BD0CFF /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5CA027210D8200BD0CFF /* Main.html */; };
+		2DBA5CDE27210D8500BD0CFF /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5CA027210D8200BD0CFF /* Main.html */; };
+		2DBA5CDF27210D8500BD0CFF /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5CA227210D8200BD0CFF /* Icon.png */; };
+		2DBA5CE027210D8500BD0CFF /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5CA227210D8200BD0CFF /* Icon.png */; };
+		2DBA5CE127210D8500BD0CFF /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5CA327210D8200BD0CFF /* Style.css */; };
+		2DBA5CE227210D8500BD0CFF /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5CA327210D8200BD0CFF /* Style.css */; };
+		2DBA5CE327210D8500BD0CFF /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5CA427210D8200BD0CFF /* Script.js */; };
+		2DBA5CE427210D8500BD0CFF /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5CA427210D8200BD0CFF /* Script.js */; };
+		2DBA5CE527210D8500BD0CFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA5CA527210D8200BD0CFF /* ViewController.swift */; };
+		2DBA5CE627210D8500BD0CFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA5CA527210D8200BD0CFF /* ViewController.swift */; };
+		2DBA5CE727210D8500BD0CFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5CA627210D8400BD0CFF /* Assets.xcassets */; };
+		2DBA5CE827210D8500BD0CFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5CA627210D8400BD0CFF /* Assets.xcassets */; };
+		2DBA5CE927210D8500BD0CFF /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA5CA827210D8400BD0CFF /* SafariWebExtensionHandler.swift */; };
+		2DBA5CEA27210D8500BD0CFF /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA5CA827210D8400BD0CFF /* SafariWebExtensionHandler.swift */; };
+		2DBA5D0827210D8700BD0CFF /* options in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5CFC27210D8600BD0CFF /* options */; };
+		2DBA5D0927210D8700BD0CFF /* oss-attribution in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5CFD27210D8600BD0CFF /* oss-attribution */; };
+		2DBA5D0A27210D8700BD0CFF /* content.css in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5CFE27210D8600BD0CFF /* content.css */; };
+		2DBA5D0B27210D8700BD0CFF /* js in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5CFF27210D8600BD0CFF /* js */; };
+		2DBA5D0C27210D8700BD0CFF /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5D0027210D8600BD0CFF /* popup.html */; };
+		2DBA5D0D27210D8700BD0CFF /* permissions in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5D0127210D8600BD0CFF /* permissions */; };
+		2DBA5D0E27210D8700BD0CFF /* libs in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5D0227210D8700BD0CFF /* libs */; };
+		2DBA5D0F27210D8700BD0CFF /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5D0327210D8700BD0CFF /* icons */; };
+		2DBA5D1027210D8700BD0CFF /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5D0427210D8700BD0CFF /* manifest.json */; };
+		2DBA5D1127210D8700BD0CFF /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5D0527210D8700BD0CFF /* popup.css */; };
+		2DBA5D1227210D8700BD0CFF /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5D0627210D8700BD0CFF /* _locales */; };
+		2DBA5D1327210D8700BD0CFF /* help in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5D0727210D8700BD0CFF /* help */; };
+		2DBA5D1427210D8700BD0CFF /* options in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5CFC27210D8600BD0CFF /* options */; };
+		2DBA5D1527210D8700BD0CFF /* oss-attribution in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5CFD27210D8600BD0CFF /* oss-attribution */; };
+		2DBA5D1627210D8700BD0CFF /* content.css in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5CFE27210D8600BD0CFF /* content.css */; };
+		2DBA5D1727210D8700BD0CFF /* js in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5CFF27210D8600BD0CFF /* js */; };
+		2DBA5D1827210D8700BD0CFF /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5D0027210D8600BD0CFF /* popup.html */; };
+		2DBA5D1927210D8700BD0CFF /* permissions in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5D0127210D8600BD0CFF /* permissions */; };
+		2DBA5D1A27210D8700BD0CFF /* libs in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5D0227210D8700BD0CFF /* libs */; };
+		2DBA5D1B27210D8700BD0CFF /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5D0327210D8700BD0CFF /* icons */; };
+		2DBA5D1C27210D8700BD0CFF /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5D0427210D8700BD0CFF /* manifest.json */; };
+		2DBA5D1D27210D8700BD0CFF /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5D0527210D8700BD0CFF /* popup.css */; };
+		2DBA5D1E27210D8700BD0CFF /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5D0627210D8700BD0CFF /* _locales */; };
+		2DBA5D1F27210D8700BD0CFF /* help in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5D0727210D8700BD0CFF /* help */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DBA5CCE27210D8500BD0CFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DBA5C9A27210D8200BD0CFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DBA5CCB27210D8500BD0CFF;
+			remoteInfo = "SponsorBlock for YouTube - Skip Sponsorships Extension (iOS)";
+		};
+		2DBA5CD827210D8500BD0CFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DBA5C9A27210D8200BD0CFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DBA5CD527210D8500BD0CFF;
+			remoteInfo = "SponsorBlock for YouTube - Skip Sponsorships Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2DBA5CF027210D8500BD0CFF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2DBA5CCD27210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DBA5CF727210D8500BD0CFF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2DBA5CD727210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2D94D4E227211CD5005746CF /* ios_instructions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ios_instructions.png; path = ../../../../../Downloads/ios_instructions.png; sourceTree = "<group>"; };
+		2DBA5CA127210D8200BD0CFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		2DBA5CA227210D8200BD0CFF /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		2DBA5CA327210D8200BD0CFF /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		2DBA5CA427210D8200BD0CFF /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		2DBA5CA527210D8200BD0CFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2DBA5CA627210D8400BD0CFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DBA5CA827210D8400BD0CFF /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		2DBA5CAD27210D8400BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SponsorBlock for YouTube - Skip Sponsorships.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DBA5CB027210D8400BD0CFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2DBA5CB227210D8400BD0CFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2DBA5CB527210D8400BD0CFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2DBA5CB827210D8400BD0CFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DBA5CBA27210D8400BD0CFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DBA5CBF27210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SponsorBlock for YouTube - Skip Sponsorships.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DBA5CC127210D8500BD0CFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2DBA5CC427210D8500BD0CFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DBA5CC627210D8500BD0CFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DBA5CC727210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SponsorBlock for YouTube - Skip Sponsorships.entitlements"; sourceTree = "<group>"; };
+		2DBA5CCC27210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SponsorBlock for YouTube - Skip Sponsorships Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DBA5CD127210D8500BD0CFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DBA5CD627210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SponsorBlock for YouTube - Skip Sponsorships Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DBA5CDB27210D8500BD0CFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DBA5CDC27210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SponsorBlock for YouTube - Skip Sponsorships.entitlements"; sourceTree = "<group>"; };
+		2DBA5CFC27210D8600BD0CFF /* options */ = {isa = PBXFileReference; lastKnownFileType = folder; name = options; path = ../../SponsorBlock/dist/options; sourceTree = "<group>"; };
+		2DBA5CFD27210D8600BD0CFF /* oss-attribution */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "oss-attribution"; path = "../../SponsorBlock/dist/oss-attribution"; sourceTree = "<group>"; };
+		2DBA5CFE27210D8600BD0CFF /* content.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = content.css; path = ../../SponsorBlock/dist/content.css; sourceTree = "<group>"; };
+		2DBA5CFF27210D8600BD0CFF /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; name = js; path = ../../SponsorBlock/dist/js; sourceTree = "<group>"; };
+		2DBA5D0027210D8600BD0CFF /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = ../../SponsorBlock/dist/popup.html; sourceTree = "<group>"; };
+		2DBA5D0127210D8600BD0CFF /* permissions */ = {isa = PBXFileReference; lastKnownFileType = folder; name = permissions; path = ../../SponsorBlock/dist/permissions; sourceTree = "<group>"; };
+		2DBA5D0227210D8700BD0CFF /* libs */ = {isa = PBXFileReference; lastKnownFileType = folder; name = libs; path = ../../SponsorBlock/dist/libs; sourceTree = "<group>"; };
+		2DBA5D0327210D8700BD0CFF /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = ../../SponsorBlock/dist/icons; sourceTree = "<group>"; };
+		2DBA5D0427210D8700BD0CFF /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../SponsorBlock/dist/manifest.json; sourceTree = "<group>"; };
+		2DBA5D0527210D8700BD0CFF /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = popup.css; path = ../../SponsorBlock/dist/popup.css; sourceTree = "<group>"; };
+		2DBA5D0627210D8700BD0CFF /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = ../../SponsorBlock/dist/_locales; sourceTree = "<group>"; };
+		2DBA5D0727210D8700BD0CFF /* help */ = {isa = PBXFileReference; lastKnownFileType = folder; name = help; path = ../../SponsorBlock/dist/help; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DBA5CAA27210D8400BD0CFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DBA5CBC27210D8500BD0CFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DBA5CC927210D8500BD0CFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DBA5CD327210D8500BD0CFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DBA5C9927210D8200BD0CFF = {
+			isa = PBXGroup;
+			children = (
+				2DBA5C9E27210D8200BD0CFF /* Shared (App) */,
+				2DBA5CA727210D8400BD0CFF /* Shared (Extension) */,
+				2DBA5CAF27210D8400BD0CFF /* iOS (App) */,
+				2DBA5CC027210D8500BD0CFF /* macOS (App) */,
+				2DBA5CD027210D8500BD0CFF /* iOS (Extension) */,
+				2DBA5CDA27210D8500BD0CFF /* macOS (Extension) */,
+				2DBA5CAE27210D8400BD0CFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DBA5C9E27210D8200BD0CFF /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				2DBA5CA527210D8200BD0CFF /* ViewController.swift */,
+				2DBA5CA627210D8400BD0CFF /* Assets.xcassets */,
+				2DBA5C9F27210D8200BD0CFF /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		2DBA5C9F27210D8200BD0CFF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2D94D4E227211CD5005746CF /* ios_instructions.png */,
+				2DBA5CA027210D8200BD0CFF /* Main.html */,
+				2DBA5CA227210D8200BD0CFF /* Icon.png */,
+				2DBA5CA327210D8200BD0CFF /* Style.css */,
+				2DBA5CA427210D8200BD0CFF /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2DBA5CA727210D8400BD0CFF /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				2DBA5CFB27210D8600BD0CFF /* Resources */,
+				2DBA5CA827210D8400BD0CFF /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		2DBA5CAE27210D8400BD0CFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DBA5CAD27210D8400BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships.app */,
+				2DBA5CBF27210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships.app */,
+				2DBA5CCC27210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships Extension.appex */,
+				2DBA5CD627210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DBA5CAF27210D8400BD0CFF /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				2DBA5CB027210D8400BD0CFF /* AppDelegate.swift */,
+				2DBA5CB227210D8400BD0CFF /* SceneDelegate.swift */,
+				2DBA5CB427210D8400BD0CFF /* LaunchScreen.storyboard */,
+				2DBA5CB727210D8400BD0CFF /* Main.storyboard */,
+				2DBA5CBA27210D8400BD0CFF /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		2DBA5CC027210D8500BD0CFF /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				2DBA5CC127210D8500BD0CFF /* AppDelegate.swift */,
+				2DBA5CC327210D8500BD0CFF /* Main.storyboard */,
+				2DBA5CC627210D8500BD0CFF /* Info.plist */,
+				2DBA5CC727210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		2DBA5CD027210D8500BD0CFF /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				2DBA5CD127210D8500BD0CFF /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		2DBA5CDA27210D8500BD0CFF /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				2DBA5CDB27210D8500BD0CFF /* Info.plist */,
+				2DBA5CDC27210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		2DBA5CFB27210D8600BD0CFF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2DBA5CFC27210D8600BD0CFF /* options */,
+				2DBA5CFD27210D8600BD0CFF /* oss-attribution */,
+				2DBA5CFE27210D8600BD0CFF /* content.css */,
+				2DBA5CFF27210D8600BD0CFF /* js */,
+				2DBA5D0027210D8600BD0CFF /* popup.html */,
+				2DBA5D0127210D8600BD0CFF /* permissions */,
+				2DBA5D0227210D8700BD0CFF /* libs */,
+				2DBA5D0327210D8700BD0CFF /* icons */,
+				2DBA5D0427210D8700BD0CFF /* manifest.json */,
+				2DBA5D0527210D8700BD0CFF /* popup.css */,
+				2DBA5D0627210D8700BD0CFF /* _locales */,
+				2DBA5D0727210D8700BD0CFF /* help */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DBA5CAC27210D8400BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DBA5CF127210D8500BD0CFF /* Build configuration list for PBXNativeTarget "SponsorBlock for YouTube - Skip Sponsorships (iOS)" */;
+			buildPhases = (
+				2DBA5CA927210D8400BD0CFF /* Sources */,
+				2DBA5CAA27210D8400BD0CFF /* Frameworks */,
+				2DBA5CAB27210D8400BD0CFF /* Resources */,
+				2DBA5CF027210D8500BD0CFF /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DBA5CCF27210D8500BD0CFF /* PBXTargetDependency */,
+			);
+			name = "SponsorBlock for YouTube - Skip Sponsorships (iOS)";
+			productName = "SponsorBlock for YouTube - Skip Sponsorships (iOS)";
+			productReference = 2DBA5CAD27210D8400BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DBA5CBE27210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DBA5CF827210D8500BD0CFF /* Build configuration list for PBXNativeTarget "SponsorBlock for YouTube - Skip Sponsorships (macOS)" */;
+			buildPhases = (
+				2DBA5CBB27210D8500BD0CFF /* Sources */,
+				2DBA5CBC27210D8500BD0CFF /* Frameworks */,
+				2DBA5CBD27210D8500BD0CFF /* Resources */,
+				2DBA5CF727210D8500BD0CFF /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DBA5CD927210D8500BD0CFF /* PBXTargetDependency */,
+			);
+			name = "SponsorBlock for YouTube - Skip Sponsorships (macOS)";
+			productName = "SponsorBlock for YouTube - Skip Sponsorships (macOS)";
+			productReference = 2DBA5CBF27210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DBA5CCB27210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DBA5CED27210D8500BD0CFF /* Build configuration list for PBXNativeTarget "SponsorBlock for YouTube - Skip Sponsorships Extension (iOS)" */;
+			buildPhases = (
+				2DBA5CC827210D8500BD0CFF /* Sources */,
+				2DBA5CC927210D8500BD0CFF /* Frameworks */,
+				2DBA5CCA27210D8500BD0CFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SponsorBlock for YouTube - Skip Sponsorships Extension (iOS)";
+			productName = "SponsorBlock for YouTube - Skip Sponsorships Extension (iOS)";
+			productReference = 2DBA5CCC27210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		2DBA5CD527210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DBA5CF427210D8500BD0CFF /* Build configuration list for PBXNativeTarget "SponsorBlock for YouTube - Skip Sponsorships Extension (macOS)" */;
+			buildPhases = (
+				2DBA5CD227210D8500BD0CFF /* Sources */,
+				2DBA5CD327210D8500BD0CFF /* Frameworks */,
+				2DBA5CD427210D8500BD0CFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SponsorBlock for YouTube - Skip Sponsorships Extension (macOS)";
+			productName = "SponsorBlock for YouTube - Skip Sponsorships Extension (macOS)";
+			productReference = 2DBA5CD627210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DBA5C9A27210D8200BD0CFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					2DBA5CAC27210D8400BD0CFF = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					2DBA5CBE27210D8500BD0CFF = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					2DBA5CCB27210D8500BD0CFF = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					2DBA5CD527210D8500BD0CFF = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 2DBA5C9D27210D8200BD0CFF /* Build configuration list for PBXProject "SponsorBlock for YouTube - Skip Sponsorships" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DBA5C9927210D8200BD0CFF;
+			productRefGroup = 2DBA5CAE27210D8400BD0CFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DBA5CAC27210D8400BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships (iOS) */,
+				2DBA5CBE27210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships (macOS) */,
+				2DBA5CCB27210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships Extension (iOS) */,
+				2DBA5CD527210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DBA5CAB27210D8400BD0CFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DBA5CDF27210D8500BD0CFF /* Icon.png in Resources */,
+				2DBA5CB627210D8400BD0CFF /* LaunchScreen.storyboard in Resources */,
+				2DBA5CDD27210D8500BD0CFF /* Main.html in Resources */,
+				2DBA5CE327210D8500BD0CFF /* Script.js in Resources */,
+				2DBA5CE727210D8500BD0CFF /* Assets.xcassets in Resources */,
+				2DBA5CB927210D8400BD0CFF /* Main.storyboard in Resources */,
+				2D94D4E327211CD5005746CF /* ios_instructions.png in Resources */,
+				2DBA5CE127210D8500BD0CFF /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DBA5CBD27210D8500BD0CFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D94D4E427211CD5005746CF /* ios_instructions.png in Resources */,
+				2DBA5CE027210D8500BD0CFF /* Icon.png in Resources */,
+				2DBA5CE227210D8500BD0CFF /* Style.css in Resources */,
+				2DBA5CC527210D8500BD0CFF /* Main.storyboard in Resources */,
+				2DBA5CE427210D8500BD0CFF /* Script.js in Resources */,
+				2DBA5CE827210D8500BD0CFF /* Assets.xcassets in Resources */,
+				2DBA5CDE27210D8500BD0CFF /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DBA5CCA27210D8500BD0CFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DBA5D1D27210D8700BD0CFF /* popup.css in Resources */,
+				2DBA5D1627210D8700BD0CFF /* content.css in Resources */,
+				2DBA5D1B27210D8700BD0CFF /* icons in Resources */,
+				2DBA5D1927210D8700BD0CFF /* permissions in Resources */,
+				2DBA5D1827210D8700BD0CFF /* popup.html in Resources */,
+				2DBA5D1F27210D8700BD0CFF /* help in Resources */,
+				2DBA5D1C27210D8700BD0CFF /* manifest.json in Resources */,
+				2DBA5D1527210D8700BD0CFF /* oss-attribution in Resources */,
+				2DBA5D1A27210D8700BD0CFF /* libs in Resources */,
+				2DBA5D1427210D8700BD0CFF /* options in Resources */,
+				2DBA5D1E27210D8700BD0CFF /* _locales in Resources */,
+				2DBA5D1727210D8700BD0CFF /* js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DBA5CD427210D8500BD0CFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DBA5D1127210D8700BD0CFF /* popup.css in Resources */,
+				2DBA5D0A27210D8700BD0CFF /* content.css in Resources */,
+				2DBA5D0F27210D8700BD0CFF /* icons in Resources */,
+				2DBA5D0D27210D8700BD0CFF /* permissions in Resources */,
+				2DBA5D0C27210D8700BD0CFF /* popup.html in Resources */,
+				2DBA5D1327210D8700BD0CFF /* help in Resources */,
+				2DBA5D1027210D8700BD0CFF /* manifest.json in Resources */,
+				2DBA5D0927210D8700BD0CFF /* oss-attribution in Resources */,
+				2DBA5D0E27210D8700BD0CFF /* libs in Resources */,
+				2DBA5D0827210D8700BD0CFF /* options in Resources */,
+				2DBA5D1227210D8700BD0CFF /* _locales in Resources */,
+				2DBA5D0B27210D8700BD0CFF /* js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DBA5CA927210D8400BD0CFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DBA5CE527210D8500BD0CFF /* ViewController.swift in Sources */,
+				2DBA5CB127210D8400BD0CFF /* AppDelegate.swift in Sources */,
+				2DBA5CB327210D8400BD0CFF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DBA5CBB27210D8500BD0CFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DBA5CE627210D8500BD0CFF /* ViewController.swift in Sources */,
+				2DBA5CC227210D8500BD0CFF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DBA5CC827210D8500BD0CFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DBA5CE927210D8500BD0CFF /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DBA5CD227210D8500BD0CFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DBA5CEA27210D8500BD0CFF /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DBA5CCF27210D8500BD0CFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DBA5CCB27210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships Extension (iOS) */;
+			targetProxy = 2DBA5CCE27210D8500BD0CFF /* PBXContainerItemProxy */;
+		};
+		2DBA5CD927210D8500BD0CFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DBA5CD527210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships Extension (macOS) */;
+			targetProxy = 2DBA5CD827210D8500BD0CFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2DBA5CA027210D8200BD0CFF /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DBA5CA127210D8200BD0CFF /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		2DBA5CB427210D8400BD0CFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DBA5CB527210D8400BD0CFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2DBA5CB727210D8400BD0CFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DBA5CB827210D8400BD0CFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2DBA5CC327210D8500BD0CFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DBA5CC427210D8500BD0CFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DBA5CEB27210D8500BD0CFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2DBA5CEC27210D8500BD0CFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2DBA5CEE27210D8500BD0CFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 18;
+				DEVELOPMENT_TEAM = 2PCQH7P6MB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = SponsorBlock;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 3.5;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.ajay.sponsor.macos.extension;
+				PRODUCT_NAME = "SponsorBlock for YouTube - Skip Sponsorships Extension";
+				PROVISIONING_PROFILE_SPECIFIER = "SponsorBlock for iOS Extension October";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DBA5CEF27210D8500BD0CFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 18;
+				DEVELOPMENT_TEAM = 2PCQH7P6MB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = SponsorBlock;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 3.5;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.ajay.sponsor.macos.extension;
+				PRODUCT_NAME = "SponsorBlock for YouTube - Skip Sponsorships Extension";
+				PROVISIONING_PROFILE_SPECIFIER = "SponsorBlock for iOS Extension October";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DBA5CF227210D8500BD0CFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 18;
+				DEVELOPMENT_TEAM = 2PCQH7P6MB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = SponsorBlock;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.5;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.ajay.sponsor.macos;
+				PRODUCT_NAME = "SponsorBlock for YouTube - Skip Sponsorships";
+				PROVISIONING_PROFILE_SPECIFIER = "SponsorBlock for iOS October";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DBA5CF327210D8500BD0CFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 18;
+				DEVELOPMENT_TEAM = 2PCQH7P6MB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = SponsorBlock;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.5;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.ajay.sponsor.macos;
+				PRODUCT_NAME = "SponsorBlock for YouTube - Skip Sponsorships";
+				PROVISIONING_PROFILE_SPECIFIER = "SponsorBlock for iOS October";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DBA5CF527210D8500BD0CFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/SponsorBlock for YouTube - Skip Sponsorships.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 17;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SponsorBlock for YouTube - Skip Sponsorships Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 3.5;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.ajay.sponsor.macos.extension;
+				PRODUCT_NAME = "SponsorBlock for YouTube - Skip Sponsorships Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2DBA5CF627210D8500BD0CFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/SponsorBlock for YouTube - Skip Sponsorships.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 17;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SponsorBlock for YouTube - Skip Sponsorships Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 3.5;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.ajay.sponsor.macos.extension;
+				PRODUCT_NAME = "SponsorBlock for YouTube - Skip Sponsorships Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2DBA5CF927210D8500BD0CFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/SponsorBlock for YouTube - Skip Sponsorships.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 17;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SponsorBlock for YouTube - Skip Sponsorships";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 3.5;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.ajay.sponsor.macos;
+				PRODUCT_NAME = "SponsorBlock for YouTube - Skip Sponsorships";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2DBA5CFA27210D8500BD0CFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/SponsorBlock for YouTube - Skip Sponsorships.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 17;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SponsorBlock for YouTube - Skip Sponsorships";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 3.5;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.ajay.sponsor.macos;
+				PRODUCT_NAME = "SponsorBlock for YouTube - Skip Sponsorships";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DBA5C9D27210D8200BD0CFF /* Build configuration list for PBXProject "SponsorBlock for YouTube - Skip Sponsorships" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DBA5CEB27210D8500BD0CFF /* Debug */,
+				2DBA5CEC27210D8500BD0CFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DBA5CED27210D8500BD0CFF /* Build configuration list for PBXNativeTarget "SponsorBlock for YouTube - Skip Sponsorships Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DBA5CEE27210D8500BD0CFF /* Debug */,
+				2DBA5CEF27210D8500BD0CFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DBA5CF127210D8500BD0CFF /* Build configuration list for PBXNativeTarget "SponsorBlock for YouTube - Skip Sponsorships (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DBA5CF227210D8500BD0CFF /* Debug */,
+				2DBA5CF327210D8500BD0CFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DBA5CF427210D8500BD0CFF /* Build configuration list for PBXNativeTarget "SponsorBlock for YouTube - Skip Sponsorships Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DBA5CF527210D8500BD0CFF /* Debug */,
+				2DBA5CF627210D8500BD0CFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DBA5CF827210D8500BD0CFF /* Build configuration list for PBXNativeTarget "SponsorBlock for YouTube - Skip Sponsorships (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DBA5CF927210D8500BD0CFF /* Debug */,
+				2DBA5CFA27210D8500BD0CFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DBA5C9A27210D8200BD0CFF /* Project object */;
+}
