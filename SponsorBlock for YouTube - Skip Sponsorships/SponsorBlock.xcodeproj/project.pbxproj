@@ -15,8 +15,8 @@
 		2DBA5CB927210D8400BD0CFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5CB727210D8400BD0CFF /* Main.storyboard */; };
 		2DBA5CC227210D8500BD0CFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA5CC127210D8500BD0CFF /* AppDelegate.swift */; };
 		2DBA5CC527210D8500BD0CFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5CC327210D8500BD0CFF /* Main.storyboard */; };
-		2DBA5CCD27210D8500BD0CFF /* SponsorBlock Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2DBA5CCC27210D8500BD0CFF /* SponsorBlock Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		2DBA5CD727210D8500BD0CFF /* SponsorBlock Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2DBA5CD627210D8500BD0CFF /* SponsorBlock Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2DBA5CCD27210D8500BD0CFF /* SponsorBlock Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2DBA5CCC27210D8500BD0CFF /* SponsorBlock Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2DBA5CD727210D8500BD0CFF /* SponsorBlock Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 2DBA5CD627210D8500BD0CFF /* SponsorBlock Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2DBA5CDD27210D8500BD0CFF /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5CA027210D8200BD0CFF /* Main.html */; };
 		2DBA5CDE27210D8500BD0CFF /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5CA027210D8200BD0CFF /* Main.html */; };
 		2DBA5CDF27210D8500BD0CFF /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5CA227210D8200BD0CFF /* Icon.png */; };
@@ -75,26 +75,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		2DBA5CF027210D8500BD0CFF /* Embed App Extensions */ = {
+		2DBA5CF027210D8500BD0CFF /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				2DBA5CCD27210D8500BD0CFF /* SponsorBlock Extension.appex in Embed App Extensions */,
+				2DBA5CCD27210D8500BD0CFF /* SponsorBlock Extension.appex in Embed Foundation Extensions */,
 			);
-			name = "Embed App Extensions";
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2DBA5CF727210D8500BD0CFF /* Embed App Extensions */ = {
+		2DBA5CF727210D8500BD0CFF /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				2DBA5CD727210D8500BD0CFF /* SponsorBlock Extension.appex in Embed App Extensions */,
+				2DBA5CD727210D8500BD0CFF /* SponsorBlock Extension.appex in Embed Foundation Extensions */,
 			);
-			name = "Embed App Extensions";
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -295,7 +295,7 @@
 				2DBA5CA927210D8400BD0CFF /* Sources */,
 				2DBA5CAA27210D8400BD0CFF /* Frameworks */,
 				2DBA5CAB27210D8400BD0CFF /* Resources */,
-				2DBA5CF027210D8500BD0CFF /* Embed App Extensions */,
+				2DBA5CF027210D8500BD0CFF /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -314,7 +314,7 @@
 				2DBA5CBB27210D8500BD0CFF /* Sources */,
 				2DBA5CBC27210D8500BD0CFF /* Frameworks */,
 				2DBA5CBD27210D8500BD0CFF /* Resources */,
-				2DBA5CF727210D8500BD0CFF /* Embed App Extensions */,
+				2DBA5CF727210D8500BD0CFF /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -368,7 +368,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastUpgradeCheck = 1420;
 				TargetAttributes = {
 					2DBA5CAC27210D8400BD0CFF = {
 						CreatedOnToolsVersion = 13.0;
@@ -596,6 +596,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -655,6 +656,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -828,6 +830,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 39;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 2PCQH7P6MB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -839,7 +842,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 5.2.2;
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -862,6 +865,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 39;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 2PCQH7P6MB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -873,7 +877,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 5.2.2;
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -899,6 +903,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 39;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 2PCQH7P6MB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -911,7 +916,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 5.2.2;
 				OTHER_LDFLAGS = (
 					"-framework",
@@ -938,6 +943,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 39;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 2PCQH7P6MB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -950,7 +956,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 5.2.2;
 				OTHER_LDFLAGS = (
 					"-framework",
