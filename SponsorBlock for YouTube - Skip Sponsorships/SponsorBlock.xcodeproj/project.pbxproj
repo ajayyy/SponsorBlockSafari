@@ -15,8 +15,8 @@
 		2DBA5CB927210D8400BD0CFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5CB727210D8400BD0CFF /* Main.storyboard */; };
 		2DBA5CC227210D8500BD0CFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA5CC127210D8500BD0CFF /* AppDelegate.swift */; };
 		2DBA5CC527210D8500BD0CFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5CC327210D8500BD0CFF /* Main.storyboard */; };
-		2DBA5CCD27210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2DBA5CCC27210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		2DBA5CD727210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2DBA5CD627210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2DBA5CCD27210D8500BD0CFF /* SponsorBlock Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2DBA5CCC27210D8500BD0CFF /* SponsorBlock Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2DBA5CD727210D8500BD0CFF /* SponsorBlock Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2DBA5CD627210D8500BD0CFF /* SponsorBlock Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2DBA5CDD27210D8500BD0CFF /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5CA027210D8200BD0CFF /* Main.html */; };
 		2DBA5CDE27210D8500BD0CFF /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5CA027210D8200BD0CFF /* Main.html */; };
 		2DBA5CDF27210D8500BD0CFF /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5CA227210D8200BD0CFF /* Icon.png */; };
@@ -81,7 +81,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				2DBA5CCD27210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships Extension.appex in Embed App Extensions */,
+				2DBA5CCD27210D8500BD0CFF /* SponsorBlock Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -92,7 +92,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				2DBA5CD727210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships Extension.appex in Embed App Extensions */,
+				2DBA5CD727210D8500BD0CFF /* SponsorBlock Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -108,20 +108,20 @@
 		2DBA5CA527210D8200BD0CFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2DBA5CA627210D8400BD0CFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DBA5CA827210D8400BD0CFF /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
-		2DBA5CAD27210D8400BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SponsorBlock for YouTube - Skip Sponsorships.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DBA5CAD27210D8400BD0CFF /* SponsorBlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SponsorBlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DBA5CB027210D8400BD0CFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DBA5CB227210D8400BD0CFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2DBA5CB527210D8400BD0CFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DBA5CB827210D8400BD0CFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2DBA5CBA27210D8400BD0CFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2DBA5CBF27210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SponsorBlock for YouTube - Skip Sponsorships.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DBA5CBF27210D8500BD0CFF /* SponsorBlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SponsorBlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DBA5CC127210D8500BD0CFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DBA5CC427210D8500BD0CFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2DBA5CC627210D8500BD0CFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DBA5CC727210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SponsorBlock for YouTube - Skip Sponsorships.entitlements"; sourceTree = "<group>"; };
-		2DBA5CCC27210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SponsorBlock for YouTube - Skip Sponsorships Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DBA5CCC27210D8500BD0CFF /* SponsorBlock Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SponsorBlock Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DBA5CD127210D8500BD0CFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2DBA5CD627210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SponsorBlock for YouTube - Skip Sponsorships Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DBA5CD627210D8500BD0CFF /* SponsorBlock Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SponsorBlock Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DBA5CDB27210D8500BD0CFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DBA5CDC27210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SponsorBlock for YouTube - Skip Sponsorships.entitlements"; sourceTree = "<group>"; };
 		2DBA5CFC27210D8600BD0CFF /* options */ = {isa = PBXFileReference; lastKnownFileType = folder; name = options; path = ../../SponsorBlock/dist/options; sourceTree = "<group>"; };
@@ -217,10 +217,10 @@
 		2DBA5CAE27210D8400BD0CFF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2DBA5CAD27210D8400BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships.app */,
-				2DBA5CBF27210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships.app */,
-				2DBA5CCC27210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships Extension.appex */,
-				2DBA5CD627210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships Extension.appex */,
+				2DBA5CAD27210D8400BD0CFF /* SponsorBlock.app */,
+				2DBA5CBF27210D8500BD0CFF /* SponsorBlock.app */,
+				2DBA5CCC27210D8500BD0CFF /* SponsorBlock Extension.appex */,
+				2DBA5CD627210D8500BD0CFF /* SponsorBlock Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -288,9 +288,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2DBA5CAC27210D8400BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships (iOS) */ = {
+		2DBA5CAC27210D8400BD0CFF /* SponsorBlock (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2DBA5CF127210D8500BD0CFF /* Build configuration list for PBXNativeTarget "SponsorBlock for YouTube - Skip Sponsorships (iOS)" */;
+			buildConfigurationList = 2DBA5CF127210D8500BD0CFF /* Build configuration list for PBXNativeTarget "SponsorBlock (iOS)" */;
 			buildPhases = (
 				2DBA5CA927210D8400BD0CFF /* Sources */,
 				2DBA5CAA27210D8400BD0CFF /* Frameworks */,
@@ -302,14 +302,14 @@
 			dependencies = (
 				2DBA5CCF27210D8500BD0CFF /* PBXTargetDependency */,
 			);
-			name = "SponsorBlock for YouTube - Skip Sponsorships (iOS)";
+			name = "SponsorBlock (iOS)";
 			productName = "SponsorBlock for YouTube - Skip Sponsorships (iOS)";
-			productReference = 2DBA5CAD27210D8400BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships.app */;
+			productReference = 2DBA5CAD27210D8400BD0CFF /* SponsorBlock.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2DBA5CBE27210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships (macOS) */ = {
+		2DBA5CBE27210D8500BD0CFF /* SponsorBlock (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2DBA5CF827210D8500BD0CFF /* Build configuration list for PBXNativeTarget "SponsorBlock for YouTube - Skip Sponsorships (macOS)" */;
+			buildConfigurationList = 2DBA5CF827210D8500BD0CFF /* Build configuration list for PBXNativeTarget "SponsorBlock (macOS)" */;
 			buildPhases = (
 				2DBA5CBB27210D8500BD0CFF /* Sources */,
 				2DBA5CBC27210D8500BD0CFF /* Frameworks */,
@@ -321,14 +321,14 @@
 			dependencies = (
 				2DBA5CD927210D8500BD0CFF /* PBXTargetDependency */,
 			);
-			name = "SponsorBlock for YouTube - Skip Sponsorships (macOS)";
+			name = "SponsorBlock (macOS)";
 			productName = "SponsorBlock for YouTube - Skip Sponsorships (macOS)";
-			productReference = 2DBA5CBF27210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships.app */;
+			productReference = 2DBA5CBF27210D8500BD0CFF /* SponsorBlock.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2DBA5CCB27210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships Extension (iOS) */ = {
+		2DBA5CCB27210D8500BD0CFF /* SponsorBlock Extension (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2DBA5CED27210D8500BD0CFF /* Build configuration list for PBXNativeTarget "SponsorBlock for YouTube - Skip Sponsorships Extension (iOS)" */;
+			buildConfigurationList = 2DBA5CED27210D8500BD0CFF /* Build configuration list for PBXNativeTarget "SponsorBlock Extension (iOS)" */;
 			buildPhases = (
 				2DBA5CC827210D8500BD0CFF /* Sources */,
 				2DBA5CC927210D8500BD0CFF /* Frameworks */,
@@ -338,14 +338,14 @@
 			);
 			dependencies = (
 			);
-			name = "SponsorBlock for YouTube - Skip Sponsorships Extension (iOS)";
+			name = "SponsorBlock Extension (iOS)";
 			productName = "SponsorBlock for YouTube - Skip Sponsorships Extension (iOS)";
-			productReference = 2DBA5CCC27210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships Extension.appex */;
+			productReference = 2DBA5CCC27210D8500BD0CFF /* SponsorBlock Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		2DBA5CD527210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships Extension (macOS) */ = {
+		2DBA5CD527210D8500BD0CFF /* SponsorBlock Extension (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2DBA5CF427210D8500BD0CFF /* Build configuration list for PBXNativeTarget "SponsorBlock for YouTube - Skip Sponsorships Extension (macOS)" */;
+			buildConfigurationList = 2DBA5CF427210D8500BD0CFF /* Build configuration list for PBXNativeTarget "SponsorBlock Extension (macOS)" */;
 			buildPhases = (
 				2DBA5CD227210D8500BD0CFF /* Sources */,
 				2DBA5CD327210D8500BD0CFF /* Frameworks */,
@@ -355,9 +355,9 @@
 			);
 			dependencies = (
 			);
-			name = "SponsorBlock for YouTube - Skip Sponsorships Extension (macOS)";
+			name = "SponsorBlock Extension (macOS)";
 			productName = "SponsorBlock for YouTube - Skip Sponsorships Extension (macOS)";
-			productReference = 2DBA5CD627210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships Extension.appex */;
+			productReference = 2DBA5CD627210D8500BD0CFF /* SponsorBlock Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -384,7 +384,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2DBA5C9D27210D8200BD0CFF /* Build configuration list for PBXProject "SponsorBlock for YouTube - Skip Sponsorships" */;
+			buildConfigurationList = 2DBA5C9D27210D8200BD0CFF /* Build configuration list for PBXProject "SponsorBlock" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -397,10 +397,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2DBA5CAC27210D8400BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships (iOS) */,
-				2DBA5CBE27210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships (macOS) */,
-				2DBA5CCB27210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships Extension (iOS) */,
-				2DBA5CD527210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships Extension (macOS) */,
+				2DBA5CAC27210D8400BD0CFF /* SponsorBlock (iOS) */,
+				2DBA5CBE27210D8500BD0CFF /* SponsorBlock (macOS) */,
+				2DBA5CCB27210D8500BD0CFF /* SponsorBlock Extension (iOS) */,
+				2DBA5CD527210D8500BD0CFF /* SponsorBlock Extension (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -516,12 +516,12 @@
 /* Begin PBXTargetDependency section */
 		2DBA5CCF27210D8500BD0CFF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2DBA5CCB27210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships Extension (iOS) */;
+			target = 2DBA5CCB27210D8500BD0CFF /* SponsorBlock Extension (iOS) */;
 			targetProxy = 2DBA5CCE27210D8500BD0CFF /* PBXContainerItemProxy */;
 		};
 		2DBA5CD927210D8500BD0CFF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2DBA5CD527210D8500BD0CFF /* SponsorBlock for YouTube - Skip Sponsorships Extension (macOS) */;
+			target = 2DBA5CD527210D8500BD0CFF /* SponsorBlock Extension (macOS) */;
 			targetProxy = 2DBA5CD827210D8500BD0CFF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -678,7 +678,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 18;
+				CURRENT_PROJECT_VERSION = 39;
 				DEVELOPMENT_TEAM = 2PCQH7P6MB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
@@ -690,14 +690,14 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 3.5;
+				MARKETING_VERSION = 5.2.2;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = app.ajay.sponsor.macos.extension;
-				PRODUCT_NAME = "SponsorBlock for YouTube - Skip Sponsorships Extension";
-				PROVISIONING_PROFILE_SPECIFIER = "SponsorBlock for iOS Extension October";
+				PRODUCT_NAME = "SponsorBlock Extension";
+				PROVISIONING_PROFILE_SPECIFIER = "SponsorBlock iOS Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -711,7 +711,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 18;
+				CURRENT_PROJECT_VERSION = 39;
 				DEVELOPMENT_TEAM = 2PCQH7P6MB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
@@ -723,14 +723,14 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 3.5;
+				MARKETING_VERSION = 5.2.2;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = app.ajay.sponsor.macos.extension;
-				PRODUCT_NAME = "SponsorBlock for YouTube - Skip Sponsorships Extension";
-				PROVISIONING_PROFILE_SPECIFIER = "SponsorBlock for iOS Extension October";
+				PRODUCT_NAME = "SponsorBlock Extension";
+				PROVISIONING_PROFILE_SPECIFIER = "SponsorBlock iOS Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -748,7 +748,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 18;
+				CURRENT_PROJECT_VERSION = 39;
 				DEVELOPMENT_TEAM = 2PCQH7P6MB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
@@ -763,7 +763,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.5;
+				MARKETING_VERSION = 5.2.2;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -771,8 +771,8 @@
 					WebKit,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = app.ajay.sponsor.macos;
-				PRODUCT_NAME = "SponsorBlock for YouTube - Skip Sponsorships";
-				PROVISIONING_PROFILE_SPECIFIER = "SponsorBlock for iOS October";
+				PRODUCT_NAME = SponsorBlock;
+				PROVISIONING_PROFILE_SPECIFIER = "SponsorBlock iOS";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -788,7 +788,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 18;
+				CURRENT_PROJECT_VERSION = 39;
 				DEVELOPMENT_TEAM = 2PCQH7P6MB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
@@ -803,7 +803,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.5;
+				MARKETING_VERSION = 5.2.2;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -811,8 +811,8 @@
 					WebKit,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = app.ajay.sponsor.macos;
-				PRODUCT_NAME = "SponsorBlock for YouTube - Skip Sponsorships";
-				PROVISIONING_PROFILE_SPECIFIER = "SponsorBlock for iOS October";
+				PRODUCT_NAME = SponsorBlock;
+				PROVISIONING_PROFILE_SPECIFIER = "SponsorBlock iOS";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -825,8 +825,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/SponsorBlock for YouTube - Skip Sponsorships.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 17;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 39;
+				DEVELOPMENT_TEAM = 2PCQH7P6MB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
@@ -838,13 +840,14 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 3.5;
+				MARKETING_VERSION = 5.2.2;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = app.ajay.sponsor.macos.extension;
-				PRODUCT_NAME = "SponsorBlock for YouTube - Skip Sponsorships Extension";
+				PRODUCT_NAME = "SponsorBlock Extension";
+				PROVISIONING_PROFILE_SPECIFIER = "SponsorBlock Mac Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -856,8 +859,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/SponsorBlock for YouTube - Skip Sponsorships.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 17;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 39;
+				DEVELOPMENT_TEAM = 2PCQH7P6MB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
@@ -869,13 +874,14 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 3.5;
+				MARKETING_VERSION = 5.2.2;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = app.ajay.sponsor.macos.extension;
-				PRODUCT_NAME = "SponsorBlock for YouTube - Skip Sponsorships Extension";
+				PRODUCT_NAME = "SponsorBlock Extension";
+				PROVISIONING_PROFILE_SPECIFIER = "SponsorBlock Mac Extension";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -890,8 +896,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/SponsorBlock for YouTube - Skip Sponsorships.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 17;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 39;
+				DEVELOPMENT_TEAM = 2PCQH7P6MB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (App)/Info.plist";
@@ -904,7 +912,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 3.5;
+				MARKETING_VERSION = 5.2.2;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -912,7 +920,8 @@
 					WebKit,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = app.ajay.sponsor.macos;
-				PRODUCT_NAME = "SponsorBlock for YouTube - Skip Sponsorships";
+				PRODUCT_NAME = SponsorBlock;
+				PROVISIONING_PROFILE_SPECIFIER = "SponsorBlock Mac";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -926,8 +935,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/SponsorBlock for YouTube - Skip Sponsorships.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 17;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 39;
+				DEVELOPMENT_TEAM = 2PCQH7P6MB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (App)/Info.plist";
@@ -940,7 +951,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 3.5;
+				MARKETING_VERSION = 5.2.2;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -948,7 +959,8 @@
 					WebKit,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = app.ajay.sponsor.macos;
-				PRODUCT_NAME = "SponsorBlock for YouTube - Skip Sponsorships";
+				PRODUCT_NAME = SponsorBlock;
+				PROVISIONING_PROFILE_SPECIFIER = "SponsorBlock Mac";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -958,7 +970,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2DBA5C9D27210D8200BD0CFF /* Build configuration list for PBXProject "SponsorBlock for YouTube - Skip Sponsorships" */ = {
+		2DBA5C9D27210D8200BD0CFF /* Build configuration list for PBXProject "SponsorBlock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2DBA5CEB27210D8500BD0CFF /* Debug */,
@@ -967,7 +979,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2DBA5CED27210D8500BD0CFF /* Build configuration list for PBXNativeTarget "SponsorBlock for YouTube - Skip Sponsorships Extension (iOS)" */ = {
+		2DBA5CED27210D8500BD0CFF /* Build configuration list for PBXNativeTarget "SponsorBlock Extension (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2DBA5CEE27210D8500BD0CFF /* Debug */,
@@ -976,7 +988,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2DBA5CF127210D8500BD0CFF /* Build configuration list for PBXNativeTarget "SponsorBlock for YouTube - Skip Sponsorships (iOS)" */ = {
+		2DBA5CF127210D8500BD0CFF /* Build configuration list for PBXNativeTarget "SponsorBlock (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2DBA5CF227210D8500BD0CFF /* Debug */,
@@ -985,7 +997,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2DBA5CF427210D8500BD0CFF /* Build configuration list for PBXNativeTarget "SponsorBlock for YouTube - Skip Sponsorships Extension (macOS)" */ = {
+		2DBA5CF427210D8500BD0CFF /* Build configuration list for PBXNativeTarget "SponsorBlock Extension (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2DBA5CF527210D8500BD0CFF /* Debug */,
@@ -994,7 +1006,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2DBA5CF827210D8500BD0CFF /* Build configuration list for PBXNativeTarget "SponsorBlock for YouTube - Skip Sponsorships (macOS)" */ = {
+		2DBA5CF827210D8500BD0CFF /* Build configuration list for PBXNativeTarget "SponsorBlock (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2DBA5CF927210D8500BD0CFF /* Debug */,
