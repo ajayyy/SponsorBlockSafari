@@ -136,6 +136,7 @@
 		2DBA5D0527210D8700BD0CFF /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = popup.css; path = ../../SponsorBlock/dist/popup.css; sourceTree = "<group>"; };
 		2DBA5D0627210D8700BD0CFF /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = ../../SponsorBlock/dist/_locales; sourceTree = "<group>"; };
 		2DBA5D0727210D8700BD0CFF /* help */ = {isa = PBXFileReference; lastKnownFileType = folder; name = help; path = ../../SponsorBlock/dist/help; sourceTree = "<group>"; };
+		2DFDA9902A09DE9000FED7D2 /* ci_post_clone.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ci_post_clone.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +174,7 @@
 		2DBA5C9927210D8200BD0CFF = {
 			isa = PBXGroup;
 			children = (
+				2DFDA98F2A09DE6900FED7D2 /* ci_scripts */,
 				2DBA5C9E27210D8200BD0CFF /* Shared (App) */,
 				2DBA5CA727210D8400BD0CFF /* Shared (Extension) */,
 				2DBA5CAF27210D8400BD0CFF /* iOS (App) */,
@@ -284,6 +286,14 @@
 			name = Resources;
 			path = "Shared (Extension)";
 			sourceTree = SOURCE_ROOT;
+		};
+		2DFDA98F2A09DE6900FED7D2 /* ci_scripts */ = {
+			isa = PBXGroup;
+			children = (
+				2DFDA9902A09DE9000FED7D2 /* ci_post_clone.sh */,
+			);
+			path = ci_scripts;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
