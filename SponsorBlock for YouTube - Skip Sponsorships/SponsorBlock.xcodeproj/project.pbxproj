@@ -55,6 +55,8 @@
 		2DBA5D1D27210D8700BD0CFF /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5D0527210D8700BD0CFF /* popup.css */; };
 		2DBA5D1E27210D8700BD0CFF /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5D0627210D8700BD0CFF /* _locales */; };
 		2DBA5D1F27210D8700BD0CFF /* help in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA5D0727210D8700BD0CFF /* help */; };
+		2DF776DA2A9964A1003EA5AF /* shared.css in Resources */ = {isa = PBXBuildFile; fileRef = 2DF776D92A9964A1003EA5AF /* shared.css */; };
+		2DF776DB2A9964A1003EA5AF /* shared.css in Resources */ = {isa = PBXBuildFile; fileRef = 2DF776D92A9964A1003EA5AF /* shared.css */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -136,6 +138,7 @@
 		2DBA5D0527210D8700BD0CFF /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = popup.css; path = ../../SponsorBlock/dist/popup.css; sourceTree = "<group>"; };
 		2DBA5D0627210D8700BD0CFF /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = ../../SponsorBlock/dist/_locales; sourceTree = "<group>"; };
 		2DBA5D0727210D8700BD0CFF /* help */ = {isa = PBXFileReference; lastKnownFileType = folder; name = help; path = ../../SponsorBlock/dist/help; sourceTree = "<group>"; };
+		2DF776D92A9964A1003EA5AF /* shared.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = shared.css; path = ../../SponsorBlock/dist/shared.css; sourceTree = "<group>"; };
 		2DFDA9902A09DE9000FED7D2 /* ci_post_clone.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ci_post_clone.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -270,6 +273,7 @@
 		2DBA5CFB27210D8600BD0CFF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				2DF776D92A9964A1003EA5AF /* shared.css */,
 				2DBA5CFC27210D8600BD0CFF /* options */,
 				2DBA5CFD27210D8600BD0CFF /* oss-attribution */,
 				2DBA5CFE27210D8600BD0CFF /* content.css */,
@@ -455,6 +459,7 @@
 				2DBA5D1927210D8700BD0CFF /* permissions in Resources */,
 				2DBA5D1827210D8700BD0CFF /* popup.html in Resources */,
 				2DBA5D1F27210D8700BD0CFF /* help in Resources */,
+				2DF776DA2A9964A1003EA5AF /* shared.css in Resources */,
 				2DBA5D1C27210D8700BD0CFF /* manifest.json in Resources */,
 				2DBA5D1527210D8700BD0CFF /* oss-attribution in Resources */,
 				2DBA5D1A27210D8700BD0CFF /* libs in Resources */,
@@ -474,6 +479,7 @@
 				2DBA5D0D27210D8700BD0CFF /* permissions in Resources */,
 				2DBA5D0C27210D8700BD0CFF /* popup.html in Resources */,
 				2DBA5D1327210D8700BD0CFF /* help in Resources */,
+				2DF776DB2A9964A1003EA5AF /* shared.css in Resources */,
 				2DBA5D1027210D8700BD0CFF /* manifest.json in Resources */,
 				2DBA5D0927210D8700BD0CFF /* oss-attribution in Resources */,
 				2DBA5D0E27210D8700BD0CFF /* libs in Resources */,
@@ -690,8 +696,9 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 41;
+				CURRENT_PROJECT_VERSION = 56;
 				DEVELOPMENT_TEAM = 2PCQH7P6MB;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 2PCQH7P6MB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = SponsorBlock;
@@ -702,7 +709,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 5.4.6;
+				MARKETING_VERSION = 5.7;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -710,6 +717,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = app.ajay.sponsor.macos.extension;
 				PRODUCT_NAME = "SponsorBlock Extension";
 				PROVISIONING_PROFILE_SPECIFIER = "SponsorBlock iOS Extension";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "SponsorBlock Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -723,8 +731,9 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 41;
+				CURRENT_PROJECT_VERSION = 56;
 				DEVELOPMENT_TEAM = 2PCQH7P6MB;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 2PCQH7P6MB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = SponsorBlock;
@@ -735,7 +744,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 5.4.6;
+				MARKETING_VERSION = 5.7;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -743,6 +752,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = app.ajay.sponsor.macos.extension;
 				PRODUCT_NAME = "SponsorBlock Extension";
 				PROVISIONING_PROFILE_SPECIFIER = "SponsorBlock iOS Extension";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "SponsorBlock Extension";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -760,8 +770,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 41;
+				CURRENT_PROJECT_VERSION = 56;
 				DEVELOPMENT_TEAM = 2PCQH7P6MB;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 2PCQH7P6MB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = SponsorBlock;
@@ -775,7 +786,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 5.4.6;
+				MARKETING_VERSION = 5.7;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -785,6 +796,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = app.ajay.sponsor.macos;
 				PRODUCT_NAME = SponsorBlock;
 				PROVISIONING_PROFILE_SPECIFIER = "SponsorBlock iOS";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = SponsorBlock;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -800,8 +812,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 41;
+				CURRENT_PROJECT_VERSION = 56;
 				DEVELOPMENT_TEAM = 2PCQH7P6MB;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 2PCQH7P6MB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = SponsorBlock;
@@ -815,7 +828,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 5.4.6;
+				MARKETING_VERSION = 5.7;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -825,6 +838,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = app.ajay.sponsor.macos;
 				PRODUCT_NAME = SponsorBlock;
 				PROVISIONING_PROFILE_SPECIFIER = "SponsorBlock iOS";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = SponsorBlock;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -837,9 +851,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/SponsorBlock for YouTube - Skip Sponsorships.entitlements";
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 41;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 56;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 2PCQH7P6MB;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -853,14 +867,14 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
-				MARKETING_VERSION = 5.4.6;
+				MARKETING_VERSION = 5.7;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = app.ajay.sponsor.macos.extension;
 				PRODUCT_NAME = "SponsorBlock Extension";
-				PROVISIONING_PROFILE_SPECIFIER = "SponsorBlock Mac Extension";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -872,9 +886,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/SponsorBlock for YouTube - Skip Sponsorships.entitlements";
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 41;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 56;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 2PCQH7P6MB;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -888,14 +902,14 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
-				MARKETING_VERSION = 5.4.6;
+				MARKETING_VERSION = 5.7;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = app.ajay.sponsor.macos.extension;
 				PRODUCT_NAME = "SponsorBlock Extension";
-				PROVISIONING_PROFILE_SPECIFIER = "SponsorBlock Mac Extension";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -910,15 +924,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/SponsorBlock for YouTube - Skip Sponsorships.entitlements";
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 41;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 56;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 2PCQH7P6MB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "SponsorBlock for YouTube - Skip Sponsorships";
+				INFOPLIST_KEY_CFBundleDisplayName = SponsorBlock;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -927,7 +942,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
-				MARKETING_VERSION = 5.4.6;
+				MARKETING_VERSION = 5.7;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -936,7 +951,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = app.ajay.sponsor.macos;
 				PRODUCT_NAME = SponsorBlock;
-				PROVISIONING_PROFILE_SPECIFIER = "SponsorBlock Mac";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -950,15 +965,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/SponsorBlock for YouTube - Skip Sponsorships.entitlements";
-				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 41;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 56;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 2PCQH7P6MB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "SponsorBlock for YouTube - Skip Sponsorships";
+				INFOPLIST_KEY_CFBundleDisplayName = SponsorBlock;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -967,7 +983,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
-				MARKETING_VERSION = 5.4.6;
+				MARKETING_VERSION = 5.7;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -976,7 +992,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = app.ajay.sponsor.macos;
 				PRODUCT_NAME = SponsorBlock;
-				PROVISIONING_PROFILE_SPECIFIER = "SponsorBlock Mac";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
